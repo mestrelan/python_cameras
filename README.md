@@ -10,7 +10,7 @@ Detector de movimentos e BGS (Background Subtractor)
 
 YOLO
 
-Processar o stream de vídeo da camera com o OpenCV e enviar para o navegador via HTTP.
+Acessar e processar o stream da camera com o OpenCV e enviar para o navegador via HTTP.
 
 =================================
 
