@@ -1,0 +1,104 @@
+conda install <PACKAGE>
+
+conda install -c anaconda <PACKAGE>
+
+pip uninstall package
+
+#para ver todos os pacotes instalados com pip
+pip freeze
+
+#para ver os pacotes instalados com conda
+conda list
+
+jupyter notebook
+
+conda activate vin_old_tf
+conda activate CVSC_windows
+conda activate my_env
+
+
+conda env create -f environment.yml
+
+conda env export --no-builds --from-history > env_CVSC_windows_cross.yml
+
+conda env export > env_CVSC_windows.yml
+
+conda env list
+
+conda remove --name vin_old_tf --all
+
+conda list
+
+pip install opencv=4.2.0
+conda install -c conda-forge opencv=4.2.0
+
+List installed packages in a conda environment.
+
+conda env export --no-builds > environment.yml
+
+conda install -c anaconda cudnn=VERSION"
+
+
+linux:
+
+watch -n 1 nvidia-smi
+
+watch -n0.1 "nvidia-settings -q GPUUtilization -q useddedicatedgpumemory"
+
+watch -n0.1 "nvidia-smi --format=csv --query-gpu=power.draw,utilization.gpu,fan.speed,temperature.gpu,memory.used"
+
+
+nvidia-smi --help-query-gpu
+
+
+
+
+
+
+https://github.com/ivineetm007/Fall-detection
+
+
+Precisa fazer esse ajuste no arquivo detector.py na pasta tracker
+
+      # configuration for possible GPU use
+        config = tf.compat.v1.ConfigProto()
+        config.gpu_options.allow_growth = False
+
+
+Instando cuDNN e CUDA:
+
+https://medium.com/@hippiedev/install-tensorflow-gpu-with-cuda-10-0-and-cudnn-7-4-for-python-on-windows-10-be95629e4f54
+
+https://www.microsoft.com/en-us/download/details.aspx?id=48159
+
+https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=Server2016&target_type=exelocal
+
+outro:
+https://medium.com/@harunijaz/a-step-by-step-guide-to-installing-cuda-with-pytorch-in-conda-on-windows-verifying-via-console-9ba4cd5ccbef
+
+https://schoolforengineering.com/tutorial/install-tensorflow-cuda-gpu-windows-10/
+
+duvidas solucionadas:
+
+https://stackoverflow.com/questions/1347791/unicode-error-unicodeescape-codec-cant-decode-bytes-cannot-open-text-file
+
+https://github.com/Microsoft/vscode-python/issues/1925
+
+https://www.dio.me/articles/redimensionar-tela-automaticamente-no-virtualbox
+
+https://unix.stackexchange.com/questions/38560/gpu-usage-monitoring-cuda
+
+
+duvidas quase solucionadas:
+
+https://stackoverflow.com/questions/58219956/how-to-fix-resolvepackagenotfound-error-when-creating-conda-environment
+
+https://simplificandoredes.com/aumentar-tamanho-do-disco-do-virtualbox/
+
+não usei muito, so pra salvar:
+
+https://stackoverflow.com/questions/49154899/resolvepackagenotfound-create-env-using-conda-and-yml-file-on-macos
+
+
+
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
