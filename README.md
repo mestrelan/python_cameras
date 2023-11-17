@@ -6,11 +6,11 @@ Recrie o ambiente conda usando o arquivo .yml fornecido para implementar o proje
 
 Projetos:
 
-Detector de movimentos e BGS (Background Subtractor)
+- Detector de movimentos e BGS (Background Subtractor)
 
-YOLO
+- YOLO
 
-Acessar e processar o stream da camera com o OpenCV e enviar para o navegador via HTTP.
+- Acessar e processar o stream da camera com o OpenCV e enviar para o navegador via HTTP.
 
 =================================
 
