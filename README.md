@@ -2,25 +2,26 @@
 
 Projetos de visão computacional.
 
-Instalação
-1- Recrie o ambiente conda usando o arquivo .yml fornecido conforme o sistema operacional da sua máquina. Existe um arquivo .yml para o Linux e outro para Windows.
+Instalação:
 
-2- 
-  Na linha de código:
+  1- Recrie o ambiente conda usando o arquivo .yml fornecido conforme o sistema operacional da sua máquina. Existe um arquivo .yml para o Linux e outro para Windows.
   
-  ap.add_argument("-i", "--ip", type=str, required=False, default='192.168.47.147',
-        help="ip address of the device")
-  
-  Substituir o IP pelo IP da máquina que está usando. Para descobrir o IP use o comando ipconfig (no Windows) ou ifconfig(no Linux).
-  
-  
+  2- 
+    Na linha de código:
+    
+    ap.add_argument("-i", "--ip", type=str, required=False, default='192.168.47.147',
+          help="ip address of the device")
+    
+    Substituir o IP pelo IP da máquina que está usando. Para descobrir o IP use o comando ipconfig (no Windows) ou ifconfig(no Linux).
+    
+    
 Projetos:
 
-- Aplicação de filtros, detector de movimentos e BGS (Background Subtractor).
-
-- YOLO
-
-- Acessar e processar o stream da camera com o OpenCV e enviar para o navegador via HTTP.
+  - Aplicação de filtros, detector de movimentos e BGS (Background Subtractor).
+  
+  - YOLO
+  
+  - Acessar e processar o stream da camera com o OpenCV e enviar para o navegador via HTTP.
 
 =================================
 
