@@ -2,11 +2,21 @@
 
 Projetos de visão computacional.
 
-Recrie o ambiente conda usando o arquivo .yml fornecido para implementar o projeto.
+Instalação
+1- Recrie o ambiente conda usando o arquivo .yml fornecido conforme o sistema operacional da sua máquina. Existe um arquivo .yml para o Linux e outro para Windows.
 
+2- 
+  Na linha de código:
+  
+  ap.add_argument("-i", "--ip", type=str, required=False, default='192.168.47.147',
+        help="ip address of the device")
+  
+  Substituir o IP pelo IP da máquina que está usando. Para descobrir o IP use o comando ipconfig (no Windows) ou ifconfig(no Linux).
+  
+  
 Projetos:
 
-- Detector de movimentos e BGS (Background Subtractor)
+- Aplicação de filtros, detector de movimentos e BGS (Background Subtractor).
 
 - YOLO
 
